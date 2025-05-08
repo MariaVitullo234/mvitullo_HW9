@@ -1,13 +1,16 @@
-.fontawesome {
+/* Font Awesome icon styles */
+.fa-solid, .fas {
     font-size: 1.15rem;
     color: #333333;
 }
-      
+
+/* Tooltip container */
 .tooltip {
     position: relative;
     display: inline-block;
 }
 
+/* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 200px;
@@ -18,8 +21,6 @@
     text-align: center;
     border-radius: 6px;
     padding: 15px;
-
-    /* Position the tooltip text */
     position: absolute;
     z-index: 1;
     top: 100%;
@@ -27,6 +28,7 @@
     margin-left: -100px;
 }
 
+/* Show tooltip text on hover */
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
